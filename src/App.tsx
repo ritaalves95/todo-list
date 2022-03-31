@@ -3,8 +3,8 @@ import './App.css';
 import Labels from './components/Labels';
 import NewTask from './components/NewTask';
 import TaskItem from './components/TaskItem';
-import { ITask } from './utilities/Interfaces';
-import { generateWarning } from './utilities/Warning';
+import { ITask } from './components/utilities/Interfaces';
+import { generateWarning } from './components/utilities/Warning';
 
 const App: FC = () => {
   const [todoList, setTodoList] = useState<ITask[]>([

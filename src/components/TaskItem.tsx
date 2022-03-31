@@ -1,5 +1,5 @@
 import { ChangeEvent} from 'react'
-import { ITask } from '../utilities/Interfaces'
+import { ITask } from './utilities/Interfaces'
 
 interface Props {
   task: ITask;
